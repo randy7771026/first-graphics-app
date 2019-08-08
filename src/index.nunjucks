@@ -2,12 +2,16 @@
 
 {% import "_modules/link/link.nunjucks" as link %}
 
-{% block content %}
-<p>Hello World</p>
-{% endblock %}
+
 
 {% block headline %}Randy Is Learning More Than Expected{% endblock %}
 {% block byline %}By Randall Baxley{% endblock %}
 {% block pubdate %}
     <time datetime="2019-08-08" pubdate>Aug. 8, 2019</time>
+{% endblock %}
+{% block content %}
+
+{% for obj in site.data.harvard_park_homicides %}
+  {{ obj.first_name }} {{ obj.last_name }}<br>
+{% endfor %}
 {% endblock %}
