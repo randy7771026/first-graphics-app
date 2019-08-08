@@ -1,6 +1,6 @@
 # First-Graphics-App readme
 
-Generated on 2019-08-06 using
+Generated on 2019-08-08 using
 [generator-yeogurt@2.0.1](https://github.com/larsonjj/generator-yeogurt)
 
 ## Description
