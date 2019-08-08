@@ -1,7 +1,7 @@
 {
   "generator-yeogurt": {
     "config": {
-      "projectName": "first-graphics-app",
+      "projectName": "first-graphic-app",
       "htmlOption": "nunjucks",
       "jsPreprocessor": "es6",
       "cssOption": "sass",
