@@ -3,6 +3,10 @@
 {% import "_modules/link/link.nunjucks" as link %}
 
 {% block content %}
+<div class="charts">
+  <div class="inline-chart" id="county-homicides"></div>
+  <div class="inline-chart" id="harvard-park-homicides"></div>
+</div>
 <section>
 <h3>Lives Lost</h3>
 
@@ -23,4 +27,9 @@
 {% endfor %}
 </div>
 </section>
+{% endblock %}
+{% block scripts %}
+<script>
+var annualTotals = {% include '_data/annual_totals.json' %};
+</script>
 {% endblock %}
