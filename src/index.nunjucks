@@ -10,6 +10,9 @@
     <time datetime="2019-08-08" pubdate>Aug. 8, 2019</time>
 {% endblock %}
 {% block content %}
+<h3>A South L.A. neighborhood stands apart</h3>
+<p>Harvard Park's 2016 homicide total was its highest in at least 15 years despite a downward trend in killings across L.A. County.</p>
+
 <div class="charts">
   <div class="inline-chart" id="county-homicides">
     <h4 class="chart-title">County homicides, 2000-2017</h4>
