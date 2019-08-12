@@ -65,6 +65,9 @@ function createChart(el, fieldname) {
       .attr('y', d => yScale(d[fieldname]))
       .attr('width', xScale.bandwidth())
       .attr('height', d => chartHeight - yScale(d[fieldname]))
+      .on('mouseenter', d => {
+  console.log(d[fieldname])
+  });
 }
 
 createChart("#county-homicides", "homicides_total")
