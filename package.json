@@ -4,6 +4,7 @@
   "dependencies": {
     "d3": "^5.9.7",
     "jquery": "^3.4.1",
+    "leaflet": "^1.4.0",
     "normalize.css": "~5.0.0"
   },
   "devDependencies": {
